@@ -132,7 +132,7 @@
         <div id="app">
         </div>
 
-        @vite('resources/js/app.js')
+        @vite(['resources/css/app.css', 'resource/sass/app.scss', 'resources/js/app.js'])
         
     </body>
 </html>
