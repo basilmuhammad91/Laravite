@@ -41,10 +41,25 @@
                     role="menu"
                     data-accordion="false"
                 >
+                <!-- Dashboard -->
                     <li class="nav-item">
                         <router-link to="/dashboard" class="nav-link">
                             <i class="nav-icon fas fa-tachometer-alt"></i>
                             <p>Dashboard</p>
+                        </router-link>
+                    </li>
+                <!-- Users -->
+                    <li class="nav-item">
+                        <router-link to="/users" class="nav-link">
+                            <i class="nav-icon fas fa-tachometer-alt"></i>
+                            <p>Users</p>
+                        </router-link>
+                    </li>
+                <!-- Permissions -->
+                    <li class="nav-item">
+                        <router-link to="/permissions" class="nav-link">
+                            <i class="nav-icon fas fa-tachometer-alt"></i>
+                            <p>Permissions</p>
                         </router-link>
                     </li>
                 </ul>
